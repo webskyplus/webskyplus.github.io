@@ -1,0 +1,26 @@
+.section-space {
+	padding-top: 55px;
+	padding-bottom: 55px;
+}
+
+.section-title {
+	background: #eee;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.section-title:after {
+	position: absolute;
+	content: '';
+	width: 220px;
+	height: 2px;
+	margin-top: 15px;
+	background-color: #333;
+	margin-left: -110px;
+	left: 50%;
+}
+
+.content-block {
+	background: #f3f3f3;
+}
+
